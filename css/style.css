@@ -1275,11 +1275,17 @@ ol {
 	.container {
 		max-width: 1176px;
 	}
+    .main-menu #ph{
+    display: none;
+    }
 }
 
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-menu #ph{
+    display: none;
+    }
 	.main-menu {
 		margin-right: 90px;
 	}
@@ -1312,7 +1318,10 @@ ol {
 
 /* Tablet :768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .main-menu #ph{
+    display: none;
+    }
 	.site-logo {
 		max-width: 130px;
 	}
@@ -1367,6 +1376,9 @@ ol {
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+    .main-menu #ph{
+    display: block;
+    }
 	.header-section {
 		overflow: visible;
 		padding: 23px 0;
@@ -1751,3 +1763,8 @@ button:hover {
 .hero-section{
     z-index: -1;
 }
+
+/*
+.main-menu #ph{
+    display: none;
+}*/
